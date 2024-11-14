@@ -7,8 +7,8 @@ Welcome to my **Beginner Python Projects** repository! This is a collection of p
 ## 📂 Current Projects
 At the moment, I'm diving into some foundational topics and working on:
 
-### 1. **Control Flow and Logical Operators**  
-I’m learning how to control the flow of programs with conditions and loops, gaining hands-on experience with logical operators like `and`, `or`, and `not`.
+### 1. **Variables**    
+I'm getting comfortable with variables—assigning values, storing data, and understanding the importance of naming conventions.
 
 ---
 
@@ -17,8 +17,8 @@ I’m working on understanding Python’s core data types and string manipulatio
 
 ---
 
-### 3. **Variables**  
-I'm getting comfortable with variables—assigning values, storing data, and understanding the importance of naming conventions.
+### 3. **Control Flow and Logical Operators**
+I’m learning how to control the flow of programs with conditions and loops, gaining hands-on experience with logical operators like `and`, `or`, and `not`.
 
 ---
 
