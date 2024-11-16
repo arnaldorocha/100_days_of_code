@@ -2,7 +2,7 @@ import random
 
 choices = int(input(
     "What do you choose? Type 0 for Rock, 1 for paper or 2 for Scissors: "))
-choices_computer = random.randint(1, 3)
+choices_computer = random.randint(0, 2)
 
 if choices == 0 :
     print("""
@@ -86,10 +86,14 @@ else:
 
 
 
-if choices_computer == 0 and choices == 1 and choices == 2 > choices_computer == 1 and choices == 0 > choices_computer == 2:
-    print("You Win\n")
+if choices_computer == 0 and choices == 1: 
+    print("You Win!\n")
+elif choices == 0 and choices_computer == 2:
+    print("You Win!\n")
+elif choices == 2 and choices_computer == 1:    
+    print("You Win!\n")
 elif choices_computer == choices:
-    print("Tie\n")
+    print("It's a Draw!\n")
 else:
-    print("You Lose\n")
+    print("You Lose!\n")
 
