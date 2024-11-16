@@ -29,7 +29,6 @@ print("Your mission is to find the treasure. Where are the treasure? ")
 choice1 = input('You\'re at a crossroad, where do you want to go?'
                 'Type "Left" or "Right": ').lower()
 
-
 if choice1 == "left":
     choice2 = input('You\'ve come to a lake. '
                     'There is an island in the middle of the lake. '

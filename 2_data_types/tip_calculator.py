@@ -9,10 +9,10 @@ print("\n")
 person = float(input("How many people to split the bill? "))
 print("\n")
 
-tip_percent = tip / 100
-total_tip = bill * tip_percent
-total_bill = bill + total_tip
-bill_per_person = total_bill / person
-final_amount = round(bill_per_person, 2)
+tip_percent = tip / 100  #converte em float para descobrir porcentagem
+total_tip = bill * tip_percent #porcentagem da gorjeta
+total_bill = bill + total_tip  #valor mais a porcentagem da gorjeta
+bill_per_person = total_bill / person #dividindo os valores para descobrir quanto cada pessoa paga 
+final_amount = round(bill_per_person, 2) 
 
 print(f"Each person should pay: {final_amount} \n"  )
