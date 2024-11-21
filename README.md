@@ -4,6 +4,12 @@ Welcome to my **Beginner Python Projects** repository! This is a collection of p
 
 ---
 
+## 📚 About the Course
+
+These projects are part of the course **"Master Python by building 100 projects in 100 days"**, available on [Udemy](https://www.udemy.com/course/100-days-of-code/). The course covers a wide range of topics, from Python basics to advanced concepts like data science, automation, and building games and apps. Credits go to the course creators for their structured and insightful approach to teaching Python programming.
+
+---
+
 ## 📂 Current Projects
 Here’s a summary of the projects I’ve completed so far:
 
@@ -34,7 +40,7 @@ Here’s a summary of the projects I’ve completed so far:
 
 ---
 
-### 5. **Loops (For)**  
+### 5. **Loops (For and While)**  
 **Project**: Password Generator  
 - A dynamic program that generates strong passwords with options for uppercase, lowercase, symbols, and numbers.  
 - **Skills Learned**: Using loops to iterate through data, working with randomization, and manipulating strings efficiently.  
