@@ -40,7 +40,7 @@ Here’s a summary of the projects I’ve completed so far:
 
 ---
 
-### 5. **Loops (For and While)**  
+### 5. **Loops (For)**  
 **Project**: Password Generator  
 - A dynamic program that generates strong passwords with options for uppercase, lowercase, symbols, and numbers.  
 - **Skills Learned**: Using loops to iterate through data, working with randomization, and manipulating strings efficiently.  
