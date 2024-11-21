@@ -1,3 +1,5 @@
+import random
+
 letters = ['a','b','c','d','e','f', 'g', 'h', 
            'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p',
            'q', 'r', 's', 't', 'u', 'v', 'w', 
@@ -10,3 +12,17 @@ nr_letters = int(input("How many letters would you like in you password?\n"))
 nr_numbers = int(input("How many numbers would you like?\n"))
 nr_symbols = int(input("How many symbols would you like?\n"))
 
+#easy level
+password = ""
+
+for char in range(1, nr_letters + 1):
+    password += random.choice(letters)
+    
+for char in range(1, nr_numbers + 1):
+    password += random.choice(numbers)
+
+for char in range(1, nr_symbols + 1):
+    password += random.choice(symbols)
+
+print(password)
+    

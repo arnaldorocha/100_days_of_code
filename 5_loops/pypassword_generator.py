@@ -1,8 +1,8 @@
 import random
 
 # Geração de caracteres
-letters = [chr(i) for i in range(97, 123)]  # Letras de 'a' a 'z'
-numbers = [str(i) for i in range(0, 10)]   # Números de '0' a '9'
+letters = [chr(i) for i in range(97, 123)] + [chr(i) for i in range(65, 91)]  # Letras minúsculas (a-z) e maiúsculas (A-Z)
+numbers = [str(i) for i in range(0, 10)]  # Números de '0' a '9'
 symbols = ''.join(chr(i) for i in range(33, 48)) + \
           ''.join(chr(i) for i in range(58, 65)) + \
           ''.join(chr(i) for i in range(91, 97)) + \
@@ -11,7 +11,7 @@ symbols = ''.join(chr(i) for i in range(33, 48)) + \
 print('Welcome to the PyPassword Generator!\n')
 
 # Coletar as preferências do usuário
-n_letters = int(input('How many letters would you like in your password? '))
+n_letters = int(input('How many letters (both uppercase and lowercase) would you like in your password? '))
 n_symbols = int(input('How many symbols would you like? '))
 n_numbers = int(input('How many numbers would you like? '))
 
@@ -19,9 +19,9 @@ n_numbers = int(input('How many numbers would you like? '))
 password = []
 
 # Adiciona letras, símbolos e números à senha
-password += random.choices(letters, k=n_letters)
-password += random.choices(symbols, k=n_symbols)
-password += random.choices(numbers, k=n_numbers)
+password += random.choices(letters, k=n_letters)  # Letras maiúsculas e minúsculas
+password += random.choices(symbols, k=n_symbols)  # Símbolos
+password += random.choices(numbers, k=n_numbers)  # Números
 
 # Embaralha os caracteres para maior segurança
 random.shuffle(password)
