@@ -5,32 +5,39 @@ Welcome to my **Beginner Python Projects** repository! This is a collection of p
 ---
 
 ## 📂 Current Projects
-At the moment, I'm diving into some foundational topics and working on:
+Here’s a summary of the projects I’ve completed so far:
 
-### 1. **Variables**    
-I'm getting comfortable with variables—assigning values, storing data, and understanding the importance of naming conventions.  
-- **Skills Learned**: Assigning values, variable naming conventions, and manipulating data.
+### 1. **Variables**  
+**Project**: Band Name Generator  
+- This project helps users generate a band name based on their zodiac sign and a favorite animal.  
+- **Skills Learned**: Using variables to store user input, concatenating strings, and creating interactive scripts.  
 
 ---
 
 ### 2. **Data Types and How to Manipulate Strings**  
-I’m working on understanding Python’s core data types and string manipulation. These are crucial skills to ensure I can handle and process data effectively in Python.  
-- **Skills Learned**: Handling integers, floats, booleans, and strings; slicing and formatting strings; converting between data types.
+**Project**: Tip Calculator  
+- A program that calculates how much each person should contribute after a meal, based on the total bill, tip percentage, and number of diners.  
+- **Skills Learned**: Handling numbers (integers and floats), performing arithmetic operations, and formatting output for clarity.  
 
 ---
 
 ### 3. **Control Flow and Logical Operators**  
-I’m learning how to control the flow of programs with conditions and loops, gaining hands-on experience with logical operators like `and`, `or`, and `not`.  
-- **Skills Learned**: Writing `if-else` statements, using loops (`for`, `while`), and building logic with operators.
+**Project**: Treasure Hunt Game  
+- An interactive game where players make choices to find a hidden treasure while avoiding traps.  
+- **Skills Learned**: Writing conditional statements (`if-elif-else`), using logical operators to manage game flow, and implementing decision-based outcomes.  
 
 ---
 
 ### 4. **Randomisation and Python Lists**  
-Exploring how to add randomness to programs and work with Python lists to store and manage collections of data.  
-- **Skills Learned**:  
-  - Using the `random` module to generate random numbers or selections.  
-  - Creating, accessing, modifying, and iterating over lists.  
-  - Combining lists and randomness for dynamic program behavior.  
+**Project**: Rock-Paper-Scissors Game (Planned for future development)  
+- Working on adding randomness to create a classic rock-paper-scissors game.  
+
+---
+
+### 5. **Loops (For)**  
+**Project**: Password Generator  
+- A dynamic program that generates strong passwords with options for uppercase, lowercase, symbols, and numbers.  
+- **Skills Learned**: Using loops to iterate through data, working with randomization, and manipulating strings efficiently.  
 
 ---
 
