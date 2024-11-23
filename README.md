@@ -35,7 +35,7 @@ Here’s a summary of the projects I’ve completed so far:
 ---
 
 ### 4. **Randomisation and Python Lists**  
-**Project**: Rock-Paper-Scissors Game (Planned for future development)  
+**Project**: Rock-Paper-Scissors Game 
 - Working on adding randomness to create a classic rock-paper-scissors game.  
 
 ---
