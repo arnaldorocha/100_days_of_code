@@ -12,3 +12,4 @@ print("")
 print("O nome da sua banda é: " + pet + zodiac + "\n")
 
 print(f"o nome é {name.title()}")
+
