@@ -22,35 +22,35 @@ Taught by the lead instructor from the App Brewery, this course has transformed 
 
 ## 📂 Projects Completed
 
-### 1. **Variables**  
+### Day 1. **Variables**  
 **Project:** *Band Name Generator*  
 - **Description:** A tool that generates creative band names based on user input.  
 - **Skills Learned:** Handling variables, user input, and string concatenation.
 
 ---
 
-### 2. **Data Types and String Manipulation**  
+### Day 2. **Data Types and String Manipulation**  
 **Project:** *Tip Calculator*  
 - **Description:** A program to calculate the tip and split the bill among several people.  
 - **Skills Learned:** Arithmetic operations, type conversion, and output formatting.
 
 ---
 
-### 3. **Control Flow**  
+### Day 3. **Control Flow**  
 **Project:** *Treasure Hunt Game*  
 - **Description:** An interactive game where the user makes decisions to find a hidden treasure while avoiding traps.  
 - **Skills Learned:** Using conditional statements (`if-elif-else`) and logical operators to control the game flow.
 
 ---
 
-### 4. **Randomization and Lists**  
+### Day 4. **Randomization and Lists**  
 **Project:** *Rock-Paper-Scissors Game*  
 - **Description:** A classic rock-paper-scissors game incorporating randomness.  
 - **Skills Learned:** Utilizing lists, random functions, and structuring game logic.
 
 ---
 
-### 5. **Loops**  
+### Day 5. **Loops**  
 **Project:** *Password Generator*  
 - **Description:** A program that generates strong passwords with combinations of letters, numbers, and symbols.  
 - **Skills Learned:** Using `for` and `while` loops, string manipulation, and randomization logic.
