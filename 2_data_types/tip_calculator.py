@@ -1,18 +1,15 @@
-print("Welcome to the Tip Calculator.\n")
+print("Bem vindo a calculadora de gorjeta e divisão de quanto cada um deve pagar \n")
 
-bill = float(input("What was the total bill? "))
-print("\n")
+comida = float(input("\nQual foi o valor da comida? "))
+porcentagem_gorjeta = float(input("\nQual foi o valor da gorjeta referente a porcentagem da comida? "))
+pessoas = int(input("\nQuantas pessoas vão pagar a gorjeta? "))
 
-tip = float(input("What percentage of tip would you like to give? "))
-print("\n")
+porcentagem = comida / 100 
+gorjeta = porcentagem * porcentagem_gorjeta 
+gorjeta_por_pessoa = gorjeta / pessoas 
+div_comida = comida / pessoas
+total = div_comida + gorjeta_por_pessoa
 
-person = float(input("How many people to split the bill? "))
-print("\n")
-
-tip_percent = tip / 100  #converte em float para descobrir porcentagem
-total_tip = bill * tip_percent #porcentagem da gorjeta
-total_bill = bill + total_tip  #valor mais a porcentagem da gorjeta
-bill_per_person = total_bill / person #dividindo os valores para descobrir quanto cada pessoa paga 
-final_amount = round(bill_per_person, 2) 
-
-print(f"Each person should pay: {final_amount} \n"  )
+print(f'\nCada pessoa vai pagar {round(gorjeta_por_pessoa, 2)} de gorjeta\n')
+print(f'Cada pessoa vai pagar pela comida R${round(div_comida, 2)}\n')
+print(f'Cada pessoa vai pagar pela comida + gorjeta R${round(total, 2)}\n')
