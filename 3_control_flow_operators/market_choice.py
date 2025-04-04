@@ -1,37 +1,26 @@
-print("Let's go to the market!")
-print("Your child is hungry, but he doesn't like some things. Let's see if you can guess what he likes.")
+print("Uma criança está com fome e sua mãe vai ao mercado para comprar um suco e um doce.")
+print("\nTente adivinhar o que a criança gosta, mas precisa escrever certinho em letra minúscula para que funcione.")
+print("\nAs opções são as seguintes: uva, banana, mamão, limão, chocolate, bala, piriluto")
 
-# Pergunta sobre a seção de frutas
-fruit_section = input("You entered the supermarket and went to the fruit section. "
-                      "What would you like to buy? Among the options, he likes: "
-                      "banana, apple, orange, and grape. ")
+fruta = input("\nVocê chegou no mercado e está na seção de frutas. Tente adivinhar a fruta favorita da criança: ")
 
-# Verifica a fruta escolhida
-if fruit_section == "grape":
-    print("You guessed it! Let's keep shopping.")
+if fruta == "uva":
+    print("\nParabéns, você acertou!")
+
+    doce = input("\nAgora tente adivinhar o doce favorito da criança: ")
     
-    # Pergunta sobre o doce favorito
-    candy = input("Now try to guess which candy he likes: ")
-
-    if candy == "chocolate":
-        # Pergunta sobre a bebida favorita
-        drink = input("Very well, now all that's left is something to drink: ")
-
-        if drink == "grape juice":
-            print("Very well, just pay for your purchases and leave.")
-        else:
-            print("Invalid option for drink!")
-    else:
-        print("He doesn't like that candy.")
+    if doce == "chocolate":
+        print("\nParabéns, você acertou!")
         
-elif fruit_section == "orange":
-    print("What bad luck! This fruit is spoiled.")
-
-elif fruit_section == "apple":
-    print("Unfortunately, this fruit is out of stock.")
-
-elif fruit_section == "banana":
-    print("Your son didn't want this fruit today.")
+        print("\nAgora escolha a forma de pagamento: dinheiro, cartão ou pix")
+        pagamento = input("Forma de pagamento: ")
+        
+        if pagamento in ["dinheiro", "cartão", "pix"]:
+            print(f"\nCompra finalizada com {pagamento}. A criança está feliz! 🎉")
+        else:
+            print("\nForma de pagamento inválida!")
+    else:
+        print("\nErrou o doce favorito 😢")
 
 else:
-    print("Invalid option for fruit!")
+    print("\nErrou a fruta favorita 😢")
