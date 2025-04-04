@@ -37,9 +37,13 @@ Taught by the lead instructor from the App Brewery, this course has transformed 
 ---
 
 ### Day 3. **Control Flow**  
-**Project:** *Treasure Hunt Game*  
+**Project 1:** *Treasure Hunt Game*  
 - **Description:** An interactive game where the user makes decisions to find a hidden treasure while avoiding traps.  
 - **Skills Learned:** Using conditional statements (`if-elif-else`) and logical operators to control the game flow.
+
+**Project 2:** *Market Choice*  
+- **Description:** A fun game where a child chooses what the mom should buy at the market. First, the player must guess the correct fruit 🍎. Then, they need to pick the favorite candy 🍫. Finally, they select the correct payment method! If they guess wrong at any step, they have to try again. This simple project helps understand how `if-else` conditions work in practice.  
+- **Skills Learned:** Control flow using conditionals, logical sequencing, and user interaction.
 
 ---
 
