@@ -15,10 +15,11 @@ password = ""
 for var in range(nr_letters):
     password += random.choice(letters)
 for var in range(nr_letters_m):
-    password += random.choice(letters)
+    password += random.choice(letters_m)
 for var in range(nr_numbers):
-    password += random.choice(letters)
+    password += random.choice(numbers)
 for var in range(nr_symbols):
-    password += random.choice(letters)
+    password += random.choice(symbols)
+
 
 print(password)
