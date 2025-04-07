@@ -75,9 +75,9 @@ root.resizable(True, True)
 language = "en"
 
 # Carregando imagens
-rock_img = ImageTk.PhotoImage(Image.open(r"C:\Users\arnal\OneDrive\Área de Trabalho\Python_Way\workspace\programador_junior\aprendendo\beginner_projects\4_randomisation_list\game_rock_paper_scissors\rock.png").resize((150, 150)))
-paper_img = ImageTk.PhotoImage(Image.open(r"C:\Users\arnal\OneDrive\Área de Trabalho\Python_Way\workspace\programador_junior\aprendendo\beginner_projects\4_randomisation_list\game_rock_paper_scissors\paper.png").resize((150, 150)))
-scissors_img = ImageTk.PhotoImage(Image.open(r"C:\Users\arnal\OneDrive\Área de Trabalho\Python_Way\workspace\programador_junior\aprendendo\beginner_projects\4_randomisation_list\game_rock_paper_scissors\scissors.png").resize((150, 150)))
+rock_img = ImageTk.PhotoImage(Image.open(r"image\rock.png").resize((150, 150)))
+paper_img = ImageTk.PhotoImage(Image.open(r"image\paper.png").resize((150, 150)))
+scissors_img = ImageTk.PhotoImage(Image.open(r"image\scissors.png").resize((150, 150)))
 
 # Título
 title_label = tk.Label(root, text=texts[language]["title"], font=("Arial", 18, "bold"), bg="#3b5998", fg="white")
