@@ -1,4 +1,6 @@
-# menu_coffee.py
+# Este arquivo contém os dados fixos do sistema:
+# - MENU: cardápio com ingredientes e custo de cada café
+# - resources: ingredientes disponíveis na máquina
 
 MENU = {
     "espresso": {
