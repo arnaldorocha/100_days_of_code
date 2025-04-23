@@ -11,6 +11,10 @@ screen.bgcolor("black")
 screen.title("Snake Game")
 screen.tracer(0)
 
+
+r_paddle = Paddle(350, 0)
+l_paddle = Paddle(-350,0
+
 snake = Snake()
 food = Food()
 scoreboard = Scoreboard()
