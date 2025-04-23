@@ -104,6 +104,93 @@ _Taught by the lead instructor from the App Brewery, this course has helped over
 
 ---
 
+---
+
+### ✅ Day 11: The Blackjack Capstone Project  
+**Project**: Blackjack Game  
+**Description**: A terminal-based simulation of the classic Blackjack (21) card game.  
+**Skills Learned**: Functions, conditional logic, control flow, lists, and randomness.
+
+---
+
+### ✅ Day 12: Scope and the Number Guessing Game  
+**Project**: Number Guessing Game  
+**Description**: A number guessing game where the user tries to guess a secret number between 1 and 100.  
+**Skills Learned**: Variable scope, nested conditionals, loops, and user input.
+
+---
+
+### ✅ Day 13: Debugging  
+**Project**: Debugging Exercises  
+**Description**: A set of exercises focused on finding and fixing bugs in existing code.  
+**Skills Learned**: Reading error messages, tracing code execution, and debugging strategies.
+
+---
+
+### ✅ Day 14: Higher Lower Game Project  
+**Project**: Higher or Lower Game  
+**Description**: A game where players compare follower counts of celebrities and guess who has more.  
+**Skills Learned**: Dictionaries, lists, comparison logic, loops, and replay features.
+
+---
+
+### ✅ Day 15: Intermediate Level Begins  
+**Project**: Coffee Machine Simulation  
+**Description**: A simulation of a coffee machine with a menu, ingredient tracking, and payment system.  
+**Skills Learned**: Functions, dictionaries, loops, and organizing code blocks.
+
+---
+
+### ✅ Day 16: Object-Oriented Programming (OOP) Introduction  
+**Project**: Coffee Machine with OOP  
+**Description**: Refactored the coffee machine project using classes and object-oriented design.  
+**Skills Learned**: Creating classes and objects, attributes, methods, and encapsulation.
+
+---
+
+### ✅ Day 17: The Quiz Project  
+**Project**: Quiz Game  
+**Description**: A true/false quiz game built using OOP principles and dynamic scoring.  
+**Skills Learned**: Classes, instances, object behavior, modular code structure.
+
+---
+
+### ✅ Day 18: Turtle & Graphical User Interface (GUI)  
+**Project**: Turtle Graphics Challenges  
+**Description**: Visual and interactive art using the Turtle graphics module.  
+**Skills Learned**: Drawing with Turtle, movement, event handling, and screen updates.
+
+---
+
+### ✅ Day 19: Instances, State, and Higher-Order Functions  
+**Project**: Turtle Race  
+**Description**: A colorful turtle racing game where the user bets on the winner.  
+**Skills Learned**: Instances and state, loops, randomness, higher-order functions.
+
+---
+
+### ✅ Day 20: Build the Snake Game - Part 1  
+**Project**: Snake Game - Part 1  
+**Description**: Built the snake movement mechanics and keyboard controls.  
+**Skills Learned**: Screen updates, coordinate tracking, continuous movement.
+
+---
+
+### ✅ Day 21: Snake Game - Part 2  
+**Project**: Snake Game - Part 2  
+**Description**: Added food collection, score tracking, and collision detection.  
+**Skills Learned**: Collision logic, game state management, and dynamic updates.
+
+---
+
+### ✅ Day 22: Pong Game  
+**Project**: Classic Pong  
+**Description**: A classic Pong game where two players control paddles to hit the ball.  
+**Skills Learned**: Game physics, paddle movement, collision handling, and scoring.
+
+---
+
+
 ## 🌟 Goals
 
 - **Continuous Learning**: Build a solid portfolio that showcases my growth.
