@@ -1,28 +1,28 @@
 estado,sigla,x,y
-Acre,AC,-198.0,75.0
-Alagoas,AL,182.0,68.0
+Acre,AC,-198.0,40.0
+Alagoas,AL,210.0,35.0
 Amapá,AP,-1.0,193.0
 Amazonas,AM,-140.0,128.0
-Bahia,BA,121.0,39.0
-Ceará,CE,141.0,121.0
-Distrito Federal,DF,50.0,-2.0
-Espírito Santo,ES,133.0,-45.0
-Goiás,GO,24.0,-15.0
-Maranhão,MA,71.0,127.0
+Bahia,BA,121.0,19.0
+Ceará,CE,157.0,83.0
+Distrito Federal,DF,50.0,-25.0
+Espírito Santo,ES,143.0,-78.0
+Goiás,GO,24.0,-35.0
+Maranhão,MA,81.0,90.0
 Mato Grosso,MT,-33.0,25.0
-Mato Grosso do Sul,MS,-33.0,-55.0
-Minas Gerais,MG,80.0,-37.0
+Mato Grosso do Sul,MS,-33.0,-70.0
+Minas Gerais,MG,80.0,-57.0
 Pará,PA,-11.0,122.0
-Paraíba,PB,184.0,95.0
-Paraná,PR,3.0,-100.0
-Pernambuco,PE,157.0,83.0
-Piauí,PI,107.0,96.0
-Rio de Janeiro,RJ,111.0,-77.0
-Rio Grande do Norte,RN,184.0,110.0
-Rio Grande do Sul,RS,-10.0,-166.0
-Rondônia,RO,-117.0,53.0
-Roraima,RR,-109.0,192.0
-Santa Catarina,SC,24.0,-146.0
-São Paulo,SP,41.0,-80.0
-Sergipe,SE,168.0,55.0
-Tocantins,TO,42.0,55.0
+Paraíba,PB,220.0,66.0
+Paraná,PR,3.0,-125.0
+Pernambuco,PE,220.0,50.0
+Piauí,PI,121.0,55.0
+Rio de Janeiro,RJ,111.0,-110.0
+Rio Grande do Norte,RN,200.0,100.0
+Rio Grande do Sul,RS,-10.0,-196.0
+Rondônia,RO,-117.0,33.0
+Roraima,RR,-109.0,182.0
+Santa Catarina,SC,24.0,-166.0
+São Paulo,SP,41.0,-105.0
+Sergipe,SE,205.0,15.0
+Tocantins,TO,42.0,35.0

@@ -27,10 +27,10 @@ while len(guessed_states) < 27:
         t = turtle.Turtle()
         t.hideturtle()
         t.penup()
-        t.color("red")  # Muda a cor do texto para vermelho
+        t.color("Black")  # Muda a cor do texto
         state_data = data[data.estado == answer_state]
         t.goto(int(state_data.x), int(state_data.y))
-        t.write(state_data.sigla.item(), align="center", font=("Arial", 10, "bold"))
+        t.write(state_data.sigla.item(), align="center", font=("Arial", 12, "bold"))
         print(state_data.x, state_data.y)
         print(state_data.estado)
 
