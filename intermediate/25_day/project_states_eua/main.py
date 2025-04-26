@@ -33,3 +33,4 @@ while len(guessed_states) < 50:
         print(state_data.x, state_data.y)
         print(state_data.state)
 
+screen.exitonclick()
