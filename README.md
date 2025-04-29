@@ -191,6 +191,89 @@ _Taught by the lead instructor from the App Brewery, this course has helped over
 ---
 
 
+### ✅ Dia 23 - #100DaysOfCode
+
+Hoje finalizei o projeto **The Turtle Crossing** com Python 🐢💥  
+Um jogo onde o objetivo é ajudar a tartaruga a atravessar a rua sem ser atropelada!
+
+🎮 O que rolou no código:
+- ✅ Escolha de dificuldade
+- 🔄 Lógica de gameplay passo a passo
+- 👾 Criação do comportamento do jogador
+- 🚗 Comportamento dos carros
+- 💥 Detecção de colisões squish
+- 🏁 Verificação de chegada ao outro lado
+- 📊 Placar dinâmico e sequência de game over
+
+---
+
+### ✅ Dia 24 - #100DaysOfCode
+
+Hoje o aprendizado foi 🔥!  
+Dei um upgrade no meu jogo da cobrinha 🐍 e aprendi várias paradas novas com arquivos em Python:
+
+- ✨ Adicionei pontuação máxima (High Score) no Snake Game
+- 🧠 Aprendi a abrir, ler e escrever arquivos usando `with`
+- 📁 Entendi a diferença entre caminhos relativos e absolutos
+- 🎯 Desafio: salvar a pontuação máxima em arquivo = ✅
+- ✉️ Comecei o projeto **Mail Merge** (cartas personalizadas via código)
+- 🎥 Vi a solução passo a passo e entendi tudo direitinho!
+
+A cada dia mais próximo de dominar Python 💪  
+Bora pro próximo desafio! 🚀
+
+---
+
+### ✅ Dia 25 - #100DaysOfCode
+
+Hoje mergulhei no mundo dos dados com CSV e a biblioteca Pandas 🐼📊  
+Foi um baita avanço na jornada com Python e análise de dados!
+
+- 📁 Trabalhei com arquivos CSV
+- 🔍 Analisei quantidade de esquilos por cor 🐿️
+- 🧠 Se aprofundando sobre DataFrames e Series
+- 📌 Explorei como acessar linhas e colunas em dados estruturados
+- 🗺️ Finalizei o dia com um jogo interativo: adivinhar os 50 estados dos EUA
+
+---
+
+### ✅ Dia 26 - #100DaysOfCode
+
+Cada linha de código é um passo mais perto dos meus objetivos. 🚀
+
+Hoje:
+- ✔️ Pratiquei bastante compreensão de listas e dicionários.
+- ✔️ Montei a lista fonética do alfabeto (NATO Phonetic Alphabet).
+- ✔️ Finalizei o projeto de descobrir os Estados do Brasil!
+
+---
+
+### ✅ Dia 27 - #100DaysOfCode: Evoluindo com Tkinter e GUI! 🚀
+
+Hoje dei mais um passo rumo à minha evolução como programador!  
+Aprendi a criar interfaces gráficas com Tkinter, usando botões, entradas de texto, radiobuttons, escalas e checkbuttons!  
+Dominei também os layouts: pack, place e grid! 🧩
+
+💡 Destaque do dia: criei meu próprio conversor de milhas para quilômetros! 🌍✈️  
+Cada linha de código é um degrau a mais rumo aos meus sonhos! 🔥
+
+🔧 **#dica**: args e kwargs deixam seu código mais flexível e poderoso!
+
+A jornada é longa, mas a cada dia estou mais forte! 💪🚀
+
+---
+
+### ✅ Dia 28 - #100DaysOfCode: Tkinter, Tipagem Dinâmica e Pomodoro Timer! 🚀
+
+Hoje foi dia de construir meu próprio **Pomodoro Timer** com Tkinter! ⏰  
+Criei uma interface intuitiva, implementei a contagem regressiva, configurei sessões de trabalho e descanso flexíveis e ainda adicionei checkmarks para marcar cada vitória! ✅
+
+💡 Destaque: a tipagem dinâmica do Python deixou meu código mais leve, ágil e pronto para qualquer desafio! ⚡
+
+Mais um projeto concluído, mais perto dos meus objetivos! Cada linha de código é uma conquista! 💪🚀
+
+---
+
 ## 🌟 Goals
 
 - **Continuous Learning**: Build a solid portfolio that showcases my growth.
