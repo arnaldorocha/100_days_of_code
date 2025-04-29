@@ -189,88 +189,45 @@ _Taught by the lead instructor from the App Brewery, this course has helped over
 **Skills Learned**: Game physics, paddle movement, collision handling, and scoring.
 
 ---
-
-
-### ✅ Dia 23 - #100DaysOfCode
-
-Hoje finalizei o projeto **The Turtle Crossing** com Python 🐢💥  
-Um jogo onde o objetivo é ajudar a tartaruga a atravessar a rua sem ser atropelada!
-
-🎮 O que rolou no código:
-- ✅ Escolha de dificuldade
-- 🔄 Lógica de gameplay passo a passo
-- 👾 Criação do comportamento do jogador
-- 🚗 Comportamento dos carros
-- 💥 Detecção de colisões squish
-- 🏁 Verificação de chegada ao outro lado
-- 📊 Placar dinâmico e sequência de game over
+### ✅ Day 23 - #100DaysOfCode
+**Project**: The Turtle Crossing  
+**Description**: A game where the objective is to help the turtle cross the road without getting hit by cars.  
+**Skills Learned**: Difficulty selection, step-by-step gameplay logic, player behavior creation, car behavior, collision detection, checking if the turtle reaches the other side, dynamic score, and game-over sequence.
 
 ---
 
-### ✅ Dia 24 - #100DaysOfCode
-
-Hoje o aprendizado foi 🔥!  
-Dei um upgrade no meu jogo da cobrinha 🐍 e aprendi várias paradas novas com arquivos em Python:
-
-- ✨ Adicionei pontuação máxima (High Score) no Snake Game
-- 🧠 Aprendi a abrir, ler e escrever arquivos usando `with`
-- 📁 Entendi a diferença entre caminhos relativos e absolutos
-- 🎯 Desafio: salvar a pontuação máxima em arquivo = ✅
-- ✉️ Comecei o projeto **Mail Merge** (cartas personalizadas via código)
-- 🎥 Vi a solução passo a passo e entendi tudo direitinho!
-
-A cada dia mais próximo de dominar Python 💪  
-Bora pro próximo desafio! 🚀
+### ✅ Day 24 - #100DaysOfCode
+**Project**: Snake Game (Upgrade) and Mail Merge  
+**Description**: Upgraded the Snake Game by adding a high score and saved it to a file. Started the Mail Merge project.  
+**Skills Learned**: File handling (open, read, write with `with`), understanding relative vs. absolute paths, saving high score to file, Mail Merge project.
 
 ---
 
-### ✅ Dia 25 - #100DaysOfCode
-
-Hoje mergulhei no mundo dos dados com CSV e a biblioteca Pandas 🐼📊  
-Foi um baita avanço na jornada com Python e análise de dados!
-
-- 📁 Trabalhei com arquivos CSV
-- 🔍 Analisei quantidade de esquilos por cor 🐿️
-- 🧠 Se aprofundando sobre DataFrames e Series
-- 📌 Explorei como acessar linhas e colunas em dados estruturados
-- 🗺️ Finalizei o dia com um jogo interativo: adivinhar os 50 estados dos EUA
+### ✅ Day 25 - #100DaysOfCode
+**Project**: Data Analysis with Pandas  
+**Description**: Analyzed data with CSV files and Pandas library.  
+**Skills Learned**: Working with CSV files, analyzing squirrel data by color, understanding DataFrames and Series, accessing rows and columns in structured data.
 
 ---
 
-### ✅ Dia 26 - #100DaysOfCode
-
-Cada linha de código é um passo mais perto dos meus objetivos. 🚀
-
-Hoje:
-- ✔️ Pratiquei bastante compreensão de listas e dicionários.
-- ✔️ Montei a lista fonética do alfabeto (NATO Phonetic Alphabet).
-- ✔️ Finalizei o projeto de descobrir os Estados do Brasil!
+### ✅ Day 26 - #100DaysOfCode
+**Project**: NATO Phonetic Alphabet and Brazil States  
+**Description**: Created a phonetic alphabet list and finished a project to discover the states of Brazil.  
+**Skills Learned**: List comprehension, dictionaries, phonetic alphabet list, working with state data.
 
 ---
 
-### ✅ Dia 27 - #100DaysOfCode: Evoluindo com Tkinter e GUI! 🚀
-
-Hoje dei mais um passo rumo à minha evolução como programador!  
-Aprendi a criar interfaces gráficas com Tkinter, usando botões, entradas de texto, radiobuttons, escalas e checkbuttons!  
-Dominei também os layouts: pack, place e grid! 🧩
-
-💡 Destaque do dia: criei meu próprio conversor de milhas para quilômetros! 🌍✈️  
-Cada linha de código é um degrau a mais rumo aos meus sonhos! 🔥
-
-🔧 **#dica**: args e kwargs deixam seu código mais flexível e poderoso!
-
-A jornada é longa, mas a cada dia estou mais forte! 💪🚀
+### ✅ Day 27 - #100DaysOfCode
+**Project**: GUI with Tkinter  
+**Description**: Created graphical user interfaces with Tkinter, including buttons, text inputs, radio buttons, scales, and checkbuttons.  
+**Skills Learned**: Tkinter interface design, layout management (pack, place, grid), created a miles-to-kilometers converter.
 
 ---
 
-### ✅ Dia 28 - #100DaysOfCode: Tkinter, Tipagem Dinâmica e Pomodoro Timer! 🚀
-
-Hoje foi dia de construir meu próprio **Pomodoro Timer** com Tkinter! ⏰  
-Criei uma interface intuitiva, implementei a contagem regressiva, configurei sessões de trabalho e descanso flexíveis e ainda adicionei checkmarks para marcar cada vitória! ✅
-
-💡 Destaque: a tipagem dinâmica do Python deixou meu código mais leve, ágil e pronto para qualquer desafio! ⚡
-
-Mais um projeto concluído, mais perto dos meus objetivos! Cada linha de código é uma conquista! 💪🚀
+### ✅ Day 28 - #100DaysOfCode
+**Project**: Pomodoro Timer with Tkinter  
+**Description**: Built a Pomodoro timer with a flexible countdown, work and break sessions, and checkmarks to track progress.  
+**Skills Learned**: Tkinter for timer interface, dynamic typing, countdown implementation, work/break session configuration.
 
 ---
 
