@@ -230,6 +230,27 @@ _Taught by the lead instructor from the App Brewery, this course has helped over
 **Skills Learned**: Tkinter for timer interface, dynamic typing, countdown implementation, work/break session configuration.
 
 ---
+### ✅ Day 29 - Password Manager with Tkinter  
+**Project**: Password Manager  
+**Description**: Built a secure password manager with a graphical interface. It generates strong passwords, copies them to the clipboard, and saves login data with pop-up confirmations.  
+**Skills Learned**: Tkinter UI with Canvas, Grid layout, column spanning, password generation, clipboard management, and data persistence with files.
+
+---
+
+### ✅ Day 30 - Error Handling and JSON CRUD  
+**Project**: Error Handling + JSON Integration  
+**Description**: Enhanced apps with robust error handling and CRUD operations using JSON. Integrated with previous projects like the NATO Alphabet App and Password Generator.  
+**Skills Learned**: `try/except/else/finally`, custom exceptions, common error types (IndexError, KeyError), reading/writing JSON, CRUD operations in Python.
+
+---
+
+### ✅ Day 31 - Flash Card App (Capstone Start)  
+**Project**: Flash Card Language Learning App  
+**Description**: Started a flash card app to learn English words. Displays front/back images for words, tracks learned words, and saves progress in a CSV file.  
+**Skills Learned**: GUI with Tkinter, image handling, flipping cards, managing word lists with Pandas, saving progress with CSV files.
+
+---
+
 
 ## 🌟 Goals
 
