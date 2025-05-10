@@ -1,6 +1,6 @@
 import requests 
 
-key_api = "a1b7579d847c4cae5da2a6b1d7bbc937"
+key_api = "my_apy"
 
 #url ver tempo no parana
 #url2 ver tempo da minha cidade
