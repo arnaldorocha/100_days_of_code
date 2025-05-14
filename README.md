@@ -251,6 +251,96 @@ _Taught by the lead instructor from the App Brewery, this course has helped over
 
 ---
 
+### ✅ Day 32 - Flash Card App (Auto Flip Logic)  
+**Project**: Flash Card Auto-Flip Functionality  
+**Description**: Improved the flash card app with automatic flipping using `after()` and timer logic.  
+**Skills Learned**: Tkinter `after()` method, timer cancellation, async-like behavior in GUI, UX optimization.
+
+---
+
+### ✅ Day 33 - Flash Card App (Progress Save)  
+**Project**: Flash Card Word Tracking  
+**Description**: Implemented logic to save only unlearned words into CSV. Words marked as “known” are excluded from future sessions.  
+**Skills Learned**: CSV I/O with Pandas, conditional DataFrame filtering, file save/load persistence.
+
+---
+
+### ✅ Day 34 - Quizzler App  
+**Project**: True/False Quiz App with API  
+**Description**: Built a GUI quiz app fetching true/false questions from Open Trivia DB API. Includes score tracking and instant feedback.  
+**Skills Learned**: API requests, JSON parsing, OOP structure, separating logic/UI, Tkinter label updates.
+
+---
+
+### ✅ Day 35 - Rain Alert Notification  
+**Project**: Rain Notification Bot  
+**Description**: Sends an email if rain is expected, using OpenWeatherMap API and location-based forecast data.  
+**Skills Learned**: Working with weather APIs, data filtering from JSON, email automation via `smtplib`.
+
+---
+
+### ✅ Day 36 - Stock News Alert  
+**Project**: Stock Market Alert System  
+**Description**: Tracks stock price movement and sends email alerts with related news headlines if there's a significant drop.  
+**Skills Learned**: API integration (Alpha Vantage, NewsAPI), percent change logic, conditional email notifications.
+
+---
+
+### ✅ Day 37 - Habit Tracker  
+**Project**: Daily Habit Tracker with Pixela API  
+**Description**: Tracks personal habits using a graph interface provided by the Pixela API. Logs, updates, and deletes data points.  
+**Skills Learned**: RESTful API usage (POST, PUT, DELETE), environment variables, request headers, datetime formatting.
+
+---
+
+### ✅ Day 38 - Exercise Tracker with NLP  
+**Project**: Exercise Tracker with Natural Language Input  
+**Description**: Interprets exercise sentences like “ran 3km” and logs the workout using Nutritionix and Sheety APIs.  
+**Skills Learned**: NLP API integration, datetime handling, Google Sheets via Sheety, user-friendly automation.
+
+---
+
+### ✅ Day 39 - Flight Deal Finder (Part 1)  
+**Project**: Flight Price Alert System  
+**Description**: Fetches cheap flights using Tequila API. Retrieves IATA codes for cities stored in a Google Sheet.  
+**Skills Learned**: API parameter management, Sheety integration, data cleaning with Google Sheets.
+
+---
+
+### ✅ Day 40 - Flight Deal Finder (Part 2)  
+**Project**: Complete IATA Lookup Automation  
+**Description**: Enhances previous app to automatically fill in missing IATA codes from city names via API.  
+**Skills Learned**: API-based data enrichment, iterating through spreadsheet rows, logic refactoring.
+
+---
+
+### ✅ Day 41 - Flight Deal Finder (Part 3)  
+**Project**: Flight Price Alert Notifications  
+**Description**: Sends SMS/email when a flight deal is found under a target price.  
+**Skills Learned**: Twilio API (SMS), conditional notification logic, dynamic message generation.
+
+---
+
+### ✅ Day 42 - Flight Club (User Registration)  
+**Project**: Flight Deal Membership Club  
+**Description**: Created a user registration interface that stores new member data in a Google Sheet.  
+**Skills Learned**: Google Sheets as a database, input validation, form-based automation.
+
+---
+
+### ✅ Day 43 - Flight Club (Email Verification)  
+**Project**: User Confirmation for Flight Alerts  
+**Description**: Built logic to confirm user email registration before adding to the alert list.  
+**Skills Learned**: Sending confirmation emails, conditional record updates in Sheety.
+
+---
+
+### ✅ Day 44 - Flight Club Automation  
+**Project**: Daily Deal Checker and Notifier  
+**Description**: Fully automated system that checks flight deals daily and alerts registered users.  
+**Skills Learned**: Scheduling logic, system automation, full-stack integration of APIs, users, and notifications.
+
+---
 
 ## 🌟 Goals
 
