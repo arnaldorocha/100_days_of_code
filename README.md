@@ -342,6 +342,20 @@ _Taught by the lead instructor from the App Brewery, this course has helped over
 
 ---
 
+### ✅ Day 45 - LinkedIn Easy Apply Bot  
+**Project**: LinkedIn Job Application Automation  
+**Description**: Developed a bot to automatically apply for jobs on LinkedIn using Selenium. The bot logs in, searches for jobs with the "Easy Apply" feature, fills out the phone number, skips complex applications, and submits the form.  
+**Skills Learned**: Web automation with Selenium, handling dynamic web elements, exception handling (`NoSuchElementException`), and real-world application of automation in job searching.
+
+---
+
+### ✅ Day 46 - LinkedIn Connection Bot  
+**Project**: Automated LinkedIn Networking Tool  
+**Description**: Built a Python bot to send personalized connection requests only to users who study or work with Python. Automates networking to expand professional reach efficiently.  
+**Skills Learned**: Selenium with Python, Chrome WebDriver automation, custom message insertion, modular coding practices, respecting platform limits, and CAPTCHA-aware login handling.
+
+---
+
 ## 🌟 Goals
 
 - **Continuous Learning**: Build a solid portfolio that showcases my growth.
