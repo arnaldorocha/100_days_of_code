@@ -349,10 +349,10 @@ _Taught by the lead instructor from the App Brewery, this course has helped over
 
 ---
 
-### ✅ Day 46 - LinkedIn Connection Bot  
-**Project**: Automated LinkedIn Networking Tool  
-**Description**: Built a Python bot to send personalized connection requests only to users who study or work with Python. Automates networking to expand professional reach efficiently.  
-**Skills Learned**: Selenium with Python, Chrome WebDriver automation, custom message insertion, modular coding practices, respecting platform limits, and CAPTCHA-aware login handling.
+### ✅ Day 47 - Internet Speed Monitor Bot
+**Project**: Automated Internet Speed Checker with Twitter Alert
+**Description**: Created a Python bot that measures internet speed using Speedtest.net and automatically tweets a complaint if the speed is below the contracted value. Helps monitor ISP performance in real-time.
+**Skills Learned**: Web automation with Selenium, dynamic wait handling, secure credential storage with environment variables, Twitter automation, clean code structuring, and error handling for robust execution
 
 ---
 
