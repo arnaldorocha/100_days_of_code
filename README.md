@@ -356,6 +356,13 @@ _Taught by the lead instructor from the App Brewery, this course has helped over
 
 ---
 
+### ✅ Day 48 - Instagram Auto-Follow Bot
+**Project**: Automated Instagram Follower Bot
+**Description**: Built a Python bot using Selenium that logs into Instagram, navigates to a public account’s followers list, scrolls through the modal to load more users, and follows multiple accounts automatically. Helps grow an Instagram network by mimicking human interaction safely.
+**Skills Learned**: Web automation with Selenium, dynamic element handling with WebDriverWait and Expected Conditions, safe credential management using environment variables (dotenv), exception handling for pop-ups and click errors, modal scrolling with JavaScript, and proper use of the webdriver_manager for managing ChromeDriver.
+
+---
+
 ## 🌟 Goals
 
 - **Continuous Learning**: Build a solid portfolio that showcases my growth.
