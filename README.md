@@ -341,7 +341,6 @@ _Taught by the lead instructor from the App Brewery, this course has helped over
 **Skills Learned**: Scheduling logic, system automation, full-stack integration of APIs, users, and notifications.
 
 ---
-
 ### ✅ Day 45 - LinkedIn Easy Apply Bot  
 **Project**: LinkedIn Job Application Automation  
 **Description**: Developed a bot to automatically apply for jobs on LinkedIn using Selenium. The bot logs in, searches for jobs with the "Easy Apply" feature, fills out the phone number, skips complex applications, and submits the form.  
@@ -349,41 +348,40 @@ _Taught by the lead instructor from the App Brewery, this course has helped over
 
 ---
 
-### ✅ Day 47 - Internet Speed Monitor Bot
-**Project**: Automated Internet Speed Checker with Twitter Alert
-**Description**: Created a Python bot that measures internet speed using Speedtest.net and automatically tweets a complaint if the speed is below the contracted value. Helps monitor ISP performance in real-time.
+### ✅ Day 46 - LinkedIn Python Networking Bot  
+**Project**: LinkedIn Python Connection Request Bot  
+**Description**: Created an automation script to send personalized connection requests on LinkedIn specifically to users who study or work with Python. This project was designed to strategically grow a professional network while adhering to good automation practices.  
+**Skills Learned**: Web automation with Selenium, WebDriver Manager integration, strategic filtering of profiles, CAPTCHA avoidance via manual login, safe automation limits, custom messaging, and clean, well-commented code structure.
+
+---
+
+### ✅ Day 47 - Internet Speed Monitor Bot  
+**Project**: Automated Internet Speed Checker with Twitter Alert  
+**Description**: Created a Python bot that measures internet speed using Speedtest.net and automatically tweets a complaint if the speed is below the contracted value. Helps monitor ISP performance in real-time.  
 **Skills Learned**: Web automation with Selenium, dynamic wait handling, secure credential storage with environment variables, Twitter automation, clean code structuring, and error handling for robust execution
 
 ---
 
-### ✅ Day 48 - Instagram Auto-Follow Bot
-**Project**: Automated Instagram Follower Bot
-**Description**: Built a Python bot using Selenium that logs into Instagram, navigates to a public account’s followers list, scrolls through the modal to load more users, and follows multiple accounts automatically. Helps grow an Instagram network by mimicking human interaction safely.
-**Skills Learned**: Web automation with Selenium, dynamic element handling with WebDriverWait and Expected Conditions, safe credential management using environment variables (dotenv), exception handling for pop-ups and click errors, modal scrolling with JavaScript, and proper use of the webdriver_manager for managing ChromeDriver.
+### ✅ Day 48 - Instagram Auto-Follow Bot  
+**Project**: Automated Instagram Follower Bot  
+**Description**: Built a Python bot using Selenium that logs into Instagram, navigates to a public account’s followers list, scrolls through the modal to load more users, and follows multiple accounts automatically. Helps grow an Instagram network by mimicking human interaction safely.  
+**Skills Learned**: Web automation with Selenium, dynamic element handling with WebDriverWait and Expected Conditions, safe credential management using environment variables (`dotenv`), exception handling for pop-ups and click errors, modal scrolling with JavaScript, and proper use of the `webdriver_manager` for managing ChromeDriver.
 
 ---
 
-### ✅ Day 49 - Web Scraping & Automation with Selenium vs Playwright
-**Project**: Real Estate Data Scraper & Google Forms Automation
-**Description**: Developed two versions (Selenium and Playwright) of a Python automation script that scrapes property listings (addresses, prices, and links) from a Zillow-clone website using BeautifulSoup. Then, each version fills a Google Form with the extracted data. The Playwright version was introduced as an alternative to test performance and stability improvements over Selenium.
-**Skills Learned**:
-
-HTML parsing with BeautifulSoup
-
-HTTP headers spoofing to mimic real browsers and avoid bot detection
-
-Selenium automation with XPath selection and input interaction
-
-Playwright setup with asynchronous browser control and built-in wait mechanisms
-
-Dynamic form handling
-
-Comparison of real-world performance between Selenium and Playwright
-
-Collaborative learning (thanks to a recommendation from @emmanuelvmp)
+### ✅ Day 49 - Web Scraping & Automation with Selenium vs Playwright  
+**Project**: Real Estate Data Scraper & Google Forms Automation  
+**Description**: Developed two versions (Selenium and Playwright) of a Python automation script that scrapes property listings (addresses, prices, and links) from a Zillow-clone website using BeautifulSoup. Then, each version fills a Google Form with the extracted data. The Playwright version was introduced as an alternative to test performance and stability improvements over Selenium.  
+**Skills Learned**:  
+- HTML parsing with BeautifulSoup  
+- HTTP headers spoofing to mimic real browsers and avoid bot detection  
+- Selenium automation with XPath selection and input interaction  
+- Playwright setup with asynchronous browser control and built-in wait mechanisms  
+- Dynamic form handling  
+- Comparison of real-world performance between Selenium and Playwright  
+- Collaborative learning (thanks to a recommendation from @emmanuelvmp)
 
 ---
-
 
 ## 🌟 Goals
 
