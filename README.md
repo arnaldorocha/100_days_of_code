@@ -369,17 +369,24 @@ _Taught by the lead instructor from the App Brewery, this course has helped over
 
 ---
 
-### ✅ Day 49 - Web Scraping & Automation with Selenium vs Playwright  
-**Project**: Real Estate Data Scraper & Google Forms Automation  
-**Description**: Developed two versions (Selenium and Playwright) of a Python automation script that scrapes property listings (addresses, prices, and links) from a Zillow-clone website using BeautifulSoup. Then, each version fills a Google Form with the extracted data. The Playwright version was introduced as an alternative to test performance and stability improvements over Selenium.  
-**Skills Learned**:  
-- HTML parsing with BeautifulSoup  
-- HTTP headers spoofing to mimic real browsers and avoid bot detection  
-- Selenium automation with XPath selection and input interaction  
-- Playwright setup with asynchronous browser control and built-in wait mechanisms  
-- Dynamic form handling  
-- Comparison of real-world performance between Selenium and Playwright  
-- Collaborative learning (thanks to a recommendation from @emmanuelvmp)
+### ✅ Day 49 - Web Scraping & Automation with Selenium vs Playwright
+**Project**: Real Estate Data Scraper & Google Forms Automation
+**Description**: Developed two versions (Selenium and Playwright) of a Python automation script that scrapes property listings (addresses, prices, and links) from a Zillow-clone website using BeautifulSoup. Then, each version fills a Google Form with the extracted data. The Playwright version was introduced as an alternative to test performance and stability improvements over Selenium.
+**Skills Learned**:
+
+HTML parsing with BeautifulSoup
+
+HTTP headers spoofing to mimic real browsers and avoid bot detection
+
+Selenium automation with XPath selection and input interaction
+
+Playwright setup with asynchronous browser control and built-in wait mechanisms
+
+Dynamic form handling
+
+Comparison of real-world performance between Selenium and Playwright
+
+Collaborative learning (thanks to a recommendation from @emmanuelvmp)
 
 ---
 
