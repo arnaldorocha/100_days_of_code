@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Resultado</title>
+</head>
+<body style="text-align: center; margin-top: 50px;">
+    <h1 style="color: {{ result.color }}">{{ result.message }}</h1>
+    <img src="{{ result.gif }}" />
+    <br><br>
+    <a href="{{ url_for('home') }}">🔁 Tentar novamente</a>
+</body>
+</html>
+<!-- Compare this snippet from intermediate/51_day/guess_number_game/templates/index.html: -->
+<!-- <!DOCTYPE html>
+ --><!-- <html lang="en">
+ --><!-- <head>
+ --><!--     <meta charset="UTF-8"> -->
+<!-- <title>Adivinhe o Número</title> -->
+<!-- </head>
+ --><!-- <body style="text-align: center; margin-top: 50px;">
+ --><!--     <h1>🔢 Adivinhe um número entre 0 e 9</h1> -->
+<!--     <form method="post">
+ --><!--         <input type="number" name="guess" min="0" max="9" required> -->
+<!--         <button type="submit">Enviar</button> -->
+<!--     </form>
+ --><!--     <img src="https://media.giphy.com/media/3o7aCSPqXE5C6T8tBC/giphy.gif"/> -->
+<!-- </body>
+ --><!-- </html> -->
