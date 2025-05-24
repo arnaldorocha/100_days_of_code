@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>DogTinder</title>
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+    crossorigin="anonymous"
+  />
+  <link rel="stylesheet" href="static/css/style.css" />
+  <!-- Font Awesome CDN para ícones -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  <script>
+    function switchLanguage(lang) {
+      document.querySelectorAll('[data-lang]').forEach(el => {
+        el.style.display = el.getAttribute('data-lang') === lang ? 'block' : 'none';
+      });
+    }
+  </script>
+</head>
+
+<body onload="switchLanguage('en')">
+  <div class="d-flex justify-content-end p-3">
+    <button class="btn btn-outline-primary me-2" onclick="switchLanguage('en')">English</button>
+    <button class="btn btn-outline-success" onclick="switchLanguage('pt')">Português</button>
+  </div>
+
+  <!-- Title -->
+  <section id="title" class="gradient-background">
+    <div class="container col-xxl-8 px-4 pt-5">
+      <div class="row flex-lg-row-reverse align-items-center g-5 pt-5">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img
+            src="static/images/iphone.png"
+            class="d-block mx-lg-auto img-fluid"
+            alt="DogTinder App"
+            height="200"
+            loading="lazy"
+          />
+        </div>
+        <div class="col-lg-6">
+          <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3" data-lang="en">
+            Meet new and interesting dogs nearby.
+          </h1>
+          <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3" data-lang="pt">
+            Conheça cães novos e interessantes perto de você.
+          </h1>
+
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <button type="button" class="btn btn-light btn-lg px-4 me-md-2 d-flex align-items-center">
+            <i class="fab fa-apple fa-lg me-2"></i> Download 
+            </button>
+           <button type="button" class="btn btn-outline-light btn-lg px-4 d-flex align-items-center">
+            <i class="fab fa-google-play fa-lg me-2"></i> Download
+           </button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section id="features">
+    <div class="container mt-5">
+      <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+        <!-- Feature 1 -->
+        <div class="col d-flex align-items-start">
+          <div
+            class="icon-square bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="30"
+              fill="currentColor"
+              class="bi bi-check2-circle"
+              viewBox="0 0 16 16"
+            >
+              <path d="M2.5 8a5.5 5.5 0 1 1 11 0 5.5 5.5 0 1 1-11 0z" />
+              <path
+                d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 0 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z"
+              />
+            </svg>
+          </div>
+          <div>
+            <h3 class="fs-2" data-lang="en">Easy to use.</h3>
+            <h3 class="fs-2" data-lang="pt">Fácil de usar.</h3>
+            <p data-lang="en">So easy to use, even your dog could do it.</p>
+            <p data-lang="pt">Tão fácil de usar que até seu cachorro conseguiria.</p>
+          </div>
+        </div>
+
+        <!-- Feature 2 -->
+        <div class="col d-flex align-items-start">
+          <div
+            class="icon-square bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="30"
+              fill="currentColor"
+              class="bi bi-mortarboard"
+              viewBox="0 0 16 16"
+            >
+              <path d="M8 3.052l6.242 2.913L8 8.46 1.758 5.965 8 3.052z" />
+              <path
+                d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466 4.176 9.032z"
+              />
+            </svg>
+          </div>
+          <div>
+            <h3 class="fs-2" data-lang="en">Elite Clientele.</h3>
+            <h3 class="fs-2" data-lang="pt">Clientela de elite.</h3>
+            <p data-lang="en">We have all the dogs, the greatest dogs.</p>
+            <p data-lang="pt">Temos todos os cães, os melhores cães.</p>
+          </div>
+        </div>
+
+        <!-- Feature 3 -->
+        <div class="col d-flex align-items-start">
+          <div
+            class="icon-square bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="30"
+              fill="currentColor"
+              class="bi bi-arrow-through-heart"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M2.854 15.854a.5.5 0 0 1-.854-.354V14H.5a.5.5 0 0 1-.354-.854l1.5-1.5A.5.5 0 0 1 2 11.5h1.793l.53-.53c-.771-.802-1.328-1.58-1.704-2.32-.798-1.575-.775-2.996-.213-4.092C3.426 2.565 6.18 1.809 8 3.233c1.25-.98 2.944-.928 4.212-.152L13.292 2 12.147.854a.5.5 0 0 1 .353-.854h3a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.854.354L14 2.707l-1.006 1.006c.236.248.44.531.6.845.562 1.096.585 2.517-.213 4.092-.793 1.563-2.395 3.288-5.105 5.08L8 13.912l-.276-.182a21.86 21.86 0 0 1-2.685-2.062l-.539.54V14a.5.5 0 0 1-.146.354l-1.5 1.5z"
+              />
+            </svg>
+          </div>
+          <div>
+            <h3 class="fs-2" data-lang="en">Guaranteed to work.</h3>
+            <h3 class="fs-2" data-lang="pt">Garantido funcionar.</h3>
+            <p data-lang="en">Find the love of your dog's life or your money back.</p>
+            <p data-lang="pt">Encontre o amor da vida do seu cão ou seu dinheiro de volta.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoFF6r5uuFQvGtgYyTtq4YxUf5KdxFj8u8uw0V3s8QBSV2D"
+    crossorigin="anonymous"
+  ></script>
+</body>
+
+</html>
