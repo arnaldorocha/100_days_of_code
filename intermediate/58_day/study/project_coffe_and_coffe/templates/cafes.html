@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% block title %}Todos os Cafés{% endblock %}
+
+{% block content %}
+<div class="container">
+  <h1 class="mt-4">Todos os Cafés</h1>
+  <table class="table table-striped table-bordered mt-3">
+    {% for row in cafes %}
+    <tr>
+      {% for item in row %}
+      {% if item.startswith('http') %}
+      <td><a href="{{ item }}" target="_blank">Ver Mapa</a></td>
+      {% else %}
+      <td>{{ item }}</td>
+      {% endif %}
+      {% endfor %}
+    </tr>
+    {% endfor %}
+  </table>
+  <a href="{{ url_for('home') }}">← Voltar para o início</a>
+</div>
+{% endblock %}

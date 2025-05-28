@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block title %}Início{% endblock %}
+
+{% block content %}
+<div class="jumbotron text-center">
+  <div class="container">
+    <h1 class="display-4">☕️ Cafés com Wifi 💻</h1>
+    <p class="lead">Quer trabalhar em um café com tomadas e wifi?</p>
+    <hr class="my-4" />
+    <p>Veja a lista de cafés com avaliações de energia, wifi e café.</p>
+    <a class="btn btn-warning btn-lg" href="{{ url_for('cafes') }}" role="button">Ver Cafés</a>
+  </div>
+</div>
+{% endblock %}
