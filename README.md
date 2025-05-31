@@ -390,216 +390,213 @@ Collaborative learning (thanks to a recommendation from @emmanuelvmp)
 
 ---
 
-## ✅ Day 50 - #100DaysOfCode  
-### Reforçando Conceitos Avançados de Python & Flask  
-**Projeto:** Decoradores, Funções Aninhadas e Integração com Flask  
+## ✅ Day 50 - Reinforcing Advanced Python & Flask Concepts  
+**Project:** Decorators, Nested Functions, and Flask Integration  
 
-No marco do dia 50, dediquei meu tempo para reforçar conceitos essenciais e avançados que já venho utilizando: funções como objetos de primeira classe, funções aninhadas e, principalmente, decoradores personalizados — uma ferramenta poderosa tanto em scripts quanto em frameworks como Flask.
+Revisited and reinforced essential advanced concepts: first-class functions, nested functions, and especially custom decorators — powerful tools in both scripts and frameworks like Flask.
 
-Com os decoradores, conseguimos adicionar comportamentos a funções já existentes, como medir o tempo de execução, atrasar execuções ou até proteger rotas com autenticação no Flask.
-
-Além disso, revisitei como o Flask usa decoradores para registrar rotas (`@app.route()`), o que reforça como esses conceitos são aplicáveis na prática, em aplicações web reais.
-
-**Skills Reforçadas:**
-- ✅ Funções como objetos (passadas como parâmetros e retornadas)  
-- ✅ Funções aninhadas (nested functions)  
-- ✅ Criação e aplicação de decoradores personalizados  
-- ✅ Uso do módulo `time` para medições de desempenho  
-- ✅ Integração desses conceitos com o framework Flask  
+🔧 **Key Concepts:**  
+- Functions as first-class objects  
+- Nested functions  
+- Creating and applying custom decorators  
+- Measuring performance using the `time` module  
+- Integrating these concepts with Flask
 
 ```python
 @app.route("/")
 def home():
-    return "Página Inicial"
+    return "Home Page"
 ```
 
 ---
 
-## ✅ Day 51 - #100DaysOfCode  
-### Projeto Flask: Jogo de Adivinhação (0 a 9)
+## ✅ Day 51 - Flask Project: Guessing Game (0–9)
 
-Hoje criei um pequeno jogo de adivinhação com Flask. O objetivo era usar URLs dinâmicas para criar uma rota que respondesse com base no número passado na URL.
+Created a small number guessing game using dynamic URLs in Flask.
 
-🔧 **Como funciona:**
-- O número secreto é gerado aleatoriamente entre 0 e 9.
-- O usuário tenta adivinhar acessando uma rota como `/3`, `/7`, etc.
-- A resposta da aplicação é baseada na comparação com o número secreto, usando mensagens e GIFs.
+🔧 **How it works:**  
+- A secret number is randomly generated (0 to 9)  
+- User guesses by visiting `/3`, `/7`, etc.  
+- App compares the guess and returns a message with GIFs
 
-📚 **Conceitos praticados:**
-- Roteamento dinâmico com Flask (`/<int:guess>`)
-- Importação e uso de módulos (`random`)
-- Manipulação de respostas dinâmicas com HTML básico
-- Condições `if/elif/else` dentro das rotas
-
-🧠 **Resumo do dia:** Aprendi como rotas dinâmicas podem tornar uma aplicação web interativa de forma simples e divertida.
+📚 **Practiced Concepts:**  
+- Dynamic routing in Flask (`/<int:guess>`)  
+- Random number generation  
+- HTML response handling  
+- `if/elif/else` logic in routes
 
 ---
 
-## ✅ Day 52 - #100DaysOfCode  
-### Projeto: Site Pessoal com Flask + HTML/CSS
+## ✅ Day 52 - Personal Website with Flask + HTML/CSS  
 
-Hoje desenvolvi um site pessoal usando Flask e arquivos HTML personalizados. Foi um ótimo exercício para entender como Flask se integra com front-end.
+Developed a personal website integrating Flask with HTML and CSS. Great hands-on experience connecting backend to frontend.
 
-📌 **Principais aprendizados:**
-- Como servir arquivos estáticos (CSS, imagens)
-- Estrutura de pastas correta: `static/`, `templates/`
-- Uso do `render_template()` para renderizar páginas HTML
-- Adição de conteúdo como bio, projetos e redes sociais
-
-🧠 **Resumo do dia:** Conectar Python com HTML e CSS mostrou como Flask é uma ponte prática entre back-end e front-end.
+📌 **Highlights:**  
+- Serving static files (CSS, images)  
+- Proper folder structure (`static/`, `templates/`)  
+- Using `render_template()`  
+- Adding personal content (bio, projects, social links)
 
 ---
 
-## ✅ Day 53 - #100DaysOfCode  
-### Projeto: Blog com Flask + Jinja2  
-**Parte 1 – Renderização Dinâmica de Posts**
+## ✅ Day 53 - Blog with Flask + Jinja2 – Part 1  
 
-Iniciei um projeto de blog utilizando Flask e Jinja2. O foco foi criar páginas com conteúdo dinâmico a partir de dados carregados em JSON.
+Started a blog project using Flask and Jinja2 to render dynamic content from a JSON file.
 
-📌 **O que pratiquei:**
-- Carregamento de posts via arquivo JSON
-- Iteração com Jinja2 (`{% for post in posts %}`)
-- Criação de rotas dinâmicas para cada post (`/post/<int:id>`)
-- Organização de arquivos HTML com base em templates
-
-🧠 **Resumo do dia:** Jinja2 é essencial para gerar conteúdo dinâmico em Flask, como blogs, portfólios e sistemas CMS.
+📌 **Practiced Skills:**  
+- Loading post data from JSON  
+- Looping through content with Jinja2  
+- Dynamic routes for blog posts (`/post/<int:id>`)  
+- HTML templating and reuse
 
 ---
 
-## ✅ Day 54 - #100DaysOfCode  
-### Projeto: Dog Tinder 🐶  
-**Flask + HTML + Bootstrap**
+## ✅ Day 54 - Dog Tinder 🐶  
+**Tech Stack:** Flask + HTML + Bootstrap  
 
-Hoje criei um site divertido inspirado no Tinder, mas com perfis de cachorros! O foco foi trabalhar o design com HTML e Bootstrap.
+Created a fun “Tinder for dogs” site to explore design with Bootstrap and Flask.
 
-📌 **Tecnologias utilizadas:**
-- Flask (roteamento e lógica)
-- HTML5 com Bootstrap
-- Responsividade para dispositivos móveis
-- Imagens de perfil, botões "Curtir" e "Rejeitar"
-
-🧠 **Resumo do dia:** Aplicar Bootstrap com Flask facilita a criação de layouts modernos sem reinventar a roda.
+📌 **Tech Used:**  
+- Flask routing and logic  
+- HTML5 + Bootstrap  
+- Responsive design  
+- Profile cards with "Like" and "Reject" buttons
 
 ---
 
-## ✅ Day 55 - #100DaysOfCode  
-### Projeto Blog - Parte 2: Design com Bootstrap
+## ✅ Day 55 - Blog Design with Bootstrap – Part 2  
 
-Hoje foquei em aplicar o Bootstrap ao blog iniciado no Dia 53. Isso trouxe uma melhoria visual significativa.
+Enhanced the blog from Day 53 using Bootstrap for better design and usability.
 
-📌 **Alterações realizadas:**
-- Criação do `base.html` com layout comum a todas as páginas
-- Uso de cards, containers e grids do Bootstrap
-- Adição de `navbar` e `footer`
-- Melhor responsividade e legibilidade
-
-🧠 **Resumo do dia:** Separar layout em `base.html` usando herança Jinja ajuda na organização e escalabilidade do projeto.
+📌 **Updates:**  
+- Created `base.html` for layout reuse  
+- Used Bootstrap cards, containers, and grid system  
+- Added navbar and footer  
+- Improved responsiveness
 
 ---
 
-## ✅ Day 56 - #100DaysOfCode  
-### Projeto Blog - Parte 3: Formulário de Contato
+## ✅ Day 56 - Blog Contact Form – Part 3  
 
-Hoje implementei um formulário de contato funcional no blog.
+Implemented a functional contact form in the blog.
 
-📌 **Tópicos aplicados:**
-- Criação de formulário HTML com `POST`
-- Coleta de dados com `request.form`
-- Impressão dos dados no console
-- (Extra: Preparação para envio de e-mails futuros)
-
-🧠 **Resumo do dia:** Com Flask, é fácil capturar dados de formulários e usá-los para enviar e-mails, cadastrar usuários ou registrar mensagens.
+📌 **Topics Applied:**  
+- HTML form with `POST` method  
+- Accessing form data via `request.form`  
+- Logging form input in console  
+- (Bonus: Email sending prep)
 
 ---
 
-## ✅ Day 57 - #100DaysOfCode  
-### Flask-WTF e Validações de Formulário
+## ✅ Day 57 - Flask-WTF & Form Validation  
 
-Aprofundei meus conhecimentos com Flask-WTF para criar formulários mais seguros e elegantes.
+Learned how to create more secure and elegant forms using Flask-WTF.
 
-📌 **Recursos usados:**
-- Instalação e configuração do `Flask-WTF`
-- Criação de classes de formulário (`FlaskForm`)
-- Campos personalizados: `StringField`, `PasswordField`, `SubmitField`
-- Validações embutidas como `DataRequired()`
-
-🧠 **Resumo do dia:** Flask-WTF traz segurança (CSRF), validação e organização profissional para formulários web em Flask.
+📌 **What I Used:**  
+- Flask-WTF setup and installation  
+- Defining form classes (`FlaskForm`)  
+- Custom fields: `StringField`, `PasswordField`, `SubmitField`  
+- Validations such as `DataRequired()`  
+- CSRF protection enabled by default
 
 ---
 
 ## ✅ Day 58 - #100DaysOfCode  
-### Projeto Cafe & Wifi (CRUD - Parte 1)
+### Café Registration Web App (Flask + Bootstrap)
 
-Comecei a desenvolver um app de cadastro de cafés com Wi-Fi usando Flask e SQLAlchemy.
+Today I finished a super useful project using Flask and Bootstrap! ☕💻
 
-📌 **Funcionalidades:**
-- Banco de dados SQLite com SQLAlchemy
-- Tabela `Cafe` com campos como nome, localização, Wi-Fi, tomada, etc.
-- Rotas básicas e modelos criados com ORM
+📌 **Features:**
+- Register cafés with details like location, opening hours, and ratings for wifi, coffee, and power socket availability.
+- Display all cafés in a responsive and dynamic table.
+- Store data in a CSV file for easy maintenance.
+- Forms validated with Flask-WTF and all content in Portuguese 🇧🇷
 
-🧠 **Resumo do dia:** SQLAlchemy facilita muito a manipulação de banco de dados com orientação a objetos e integração com Flask.
+🧠 **Today's highlights:**
+- Working with Flask forms and WTForms validation.
+- Styling with Bootstrap for a better UI.
+- Reading and writing CSV files with Python.
+- Organizing routes and templates with Jinja2.
 
 ---
 
 ## ✅ Day 59 - #100DaysOfCode  
-### Cafe & Wifi - Parte 2: APIs com Flask
+### Virtual Bookshelf App – CRUD with Flask + SQLite
 
-Adicionei endpoints para acessar e manipular dados do banco de cafés.
+Today I started a cool project to organize my virtual bookshelf! 📚💻
 
-📌 **Endpoints criados:**
-- `/random`: Retorna café aleatório
-- `/all`: Lista todos os cafés
-- `/search`: Busca por localização
-- `/add`: Adiciona novo café (via `POST`)
-- `/update-price/<id>`: Atualiza preço (via `PATCH`)
-- `/report-closed/<id>`: Deleta café com senha secreta (via `DELETE`)
+📌 **Features:**
+- Register books I've read and rate them.
+- Learn to create and use a SQLite database to store the information.
+- Perform CRUD operations: create, read, update, and delete.
+- Integrate everything into a Flask web application.
 
-🧠 **Resumo do dia:** Com poucas linhas, é possível criar APIs RESTful completas com Flask.
+🧠 **Today's highlights:**
+- SQLite database creation and manipulation.
+- CRUD operations with Python and Flask.
+- Building a complete system for tracking books.
 
 ---
 
 ## ✅ Day 60 - #100DaysOfCode  
-### Capstone Project: API RESTful Finalizada
+### Top 10 Movies App (Flask + SQLAlchemy + WTForms)
 
-Finalizei o projeto completo de API RESTful para o app de cafés.
+Today I built a cinephile-worthy project! 🎬✨
 
-📌 **Principais aprendizados:**
-- Métodos HTTP: `GET`, `POST`, `PATCH`, `DELETE`
-- Autenticação via URL (senha na query string)
-- Manipulação de objetos com SQLAlchemy
-- Retorno de dados em formato JSON
+📌 **Features:**
+- Create a personal top 10 movie list.
+- Add ratings and comments, and edit them anytime.
+- Store information using SQLite.
+- Use Flask, SQLAlchemy, and WTForms to build the site structure.
 
-🧠 **Resumo do dia:** Criar e consumir APIs é uma habilidade fundamental para qualquer desenvolvedor backend moderno.
+🧠 **Today's highlights:**
+- Handling dynamic forms with WTForms.
+- Integrating Flask with SQLAlchemy for database operations.
+- CRUD operations with an interactive interface.
+- A great project mixing code and movie passion! 🍿
 
 ---
 
 ## ✅ Day 61 - #100DaysOfCode  
-### Preparação para Deploy (Flask + Heroku)
+### UX/UI & Web Design Fundamentals with Flask
 
-Hoje preparei o projeto para ser implantado em produção com Heroku.
+Today I dove into UX/UI and web design concepts! 🎨💡
 
-📌 **Tarefas realizadas:**
-- Criação do `Procfile`
-- Adição de `requirements.txt` com `pip freeze`
-- Configuração de `gunicorn` como WSGI server
-- Testes locais com variáveis de ambiente
+📌 **Learned:**
+- UX: Understanding user needs and emotions.
+- Typography: Choosing readable, expressive fonts.
+- Color theory: Combining colors for accessibility and attention flow.
+- UI Design: Structuring elements for clear navigation.
 
-🧠 **Resumo do dia:** Entender como Flask roda em produção (com Gunicorn + Heroku) é essencial para ir além do ambiente local.
+📌 **Practical Project:**
+- Flask login page with:
+  - Flask-WTF validated form
+  - Bootstrap layout with visual hierarchy
+  - Accessible fonts and color choices
+  - Clear and well-placed error messages
+
+🧠 **Today's highlights:**
+- Understanding the impact of design on usability.
+- Balancing aesthetics and functionality.
+- Applying user-centered design in development.
 
 ---
 
 ## ✅ Day 62 - #100DaysOfCode  
-### Projeto: Deploy no Heroku
+### Build Your Own REST API with Flask-RESTful
 
-Hoje finalizei o deploy do projeto Cafe & Wifi no Heroku! 🌐🚀
+Today I took a big step toward professional development with Python by building my own REST API from scratch! 🔥🌐
 
-📌 **Tarefas feitas:**
-- Login e push do projeto via Heroku CLI
-- Configuração do `config vars` no dashboard
-- Teste da aplicação online
-- Compartilhamento da URL com amigos 😄
+📌 **Project:**
+- Built a REST API using Flask and Flask-RESTful
+- Routes for `GET`, `POST`, `PUT`, and `DELETE`
+- JSON responses and validation
+- Simulated database with café data (perfect for freelancers looking for places to work)
 
-🧠 **Resumo do dia:** Publicar um projeto real na internet fecha com chave de ouro o ciclo de aprendizado Flask básico + intermediário.
+🧠 **Today's highlights:**
+- How REST APIs connect systems and enable integrations.
+- Implementing RESTful methods in Flask.
+- Understanding client-server communication and data organization.
 
 ---
 
