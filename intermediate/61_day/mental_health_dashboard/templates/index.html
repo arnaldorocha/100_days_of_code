@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2>Seus registros de humor</h2>
+<canvas id="moodChart" width="400" height="200"></canvas>
+<ul>
+    {% for entry in entries %}
+        <li><strong>{{ entry.date.strftime('%d/%m/%Y') }}</strong> - {{ entry.mood }} <br>{{ entry.note }}</li>
+    {% endfor %}
+</ul>
+<script>
+    const ctx = document.getElementById('moodChart');
+    const data = {
+        labels: {{ labels | tojson }},
+        datasets: [{
+            label: 'Humor',
+            data: {{ moods | tojson }},
+            fill: false,
+                borderColor: 'blue',
+                tension: 0.1
+        }]
+    };
+</script>
+{% endblock %}

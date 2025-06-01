@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<form method="post">
+    <label>Data:</label>
+    <input type="date" name="date" required>
+    <label>Humor (1 a 10):</label>
+    <input type="number" name="mood" min="1" max="10" required>
+    <label>Observações:</label>
+    <input type="text" name="note">
+    <button type="submit">Salvar</button>
+</form>
+
+<p><strong>Mensagem do dia:</strong> {{ message }}</p>
+
+<h2>Entradas</h2>
+<table>
+    <tr><th>Data</th><th>Humor</th><th>Nota</th></tr>
+    {% for entry in entries %}
+        <tr>
+            <td>{{ entry.date|format_date }}</td>
+            <td>{{ entry.mood }}</td>
+            <td>{{ entry.note }}</td>
+        </tr>
+    {% endfor %}
+</table>
+
+<h3>Média Semanal</h3>
+<ul>
+    {% for week, avg in weekly.items() %}
+        <li>{{ week }}: {{ avg|round(1) }}</li>
+    {% endfor %}
+</ul>
+
+<h3>Média Mensal</h3>
+<ul>
+    {% for month, avg in monthly.items() %}
+        <li>{{ month }}: {{ avg|round(1) }}</li>
+    {% endfor %}
+</ul>
+
+<h3>Exportar Dados</h3>
+<a href="{{ url_for('export_data') }}">Baixar CSV</a>
+{% endblock %}

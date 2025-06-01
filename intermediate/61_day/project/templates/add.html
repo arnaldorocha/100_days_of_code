@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2>Registrar humor</h2>
+<form method="POST">
+    <label for="mood">Como você está se sentindo?</label>
+    <select name="mood" id="mood" required>
+        <option value="Feliz">Feliz</option>
+        <option value="Triste">Triste</option>
+        <option value="Ansioso">Ansioso</option>
+        <option value="Calmo">Calmo</option>
+        <option value="Motivado">Motivado</option>
+    </select>
+    <label for="note">Observações (opcional)</label>
+    <textarea name="note" id="note" rows="4"></textarea>
+    <button type="submit">Salvar</button>
+</form>
+{% endblock %}
