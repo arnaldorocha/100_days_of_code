@@ -4,7 +4,7 @@ import random
 
 # Configuração da janela
 win = turtle.Screen()
-win.title("Breakout - Clone com Python Turtle")
+win.title("Breakout - Clone com Controle Fluido")
 win.bgcolor("black")
 win.setup(width=800, height=600)
 win.tracer(0)
@@ -24,15 +24,13 @@ ball.color("red")
 ball.penup()
 ball.goto(0, -100)
 
-ball.dx = 0.7
-ball.dy = 0.7
+ball.dx = 0.5
+ball.dy = 0.5
 
 # Lista de blocos
 blocks = []
-
 colors = ["red", "orange", "yellow", "green", "blue"]
 
-# Criar os blocos
 for y in range(250, 150, -20):
     for x in range(-350, 350, 70):
         block = turtle.Turtle()
@@ -43,31 +41,47 @@ for y in range(250, 150, -20):
         block.goto(x, y)
         blocks.append(block)
 
-# Funções de movimento
-def paddle_left():
-    x = paddle.xcor()
-    if x > -340:
-        paddle.setx(x - 30)
+# Variáveis de controle das teclas
+move_left = False
+move_right = False
 
-def paddle_right():
-    x = paddle.xcor()
-    if x < 340:
-        paddle.setx(x + 30)
+# Funções para atualizar os flags
+def start_move_left():
+    global move_left
+    move_left = True
 
-# Controles do teclado
+def stop_move_left():
+    global move_left
+    move_left = False
+
+def start_move_right():
+    global move_right
+    move_right = True
+
+def stop_move_right():
+    global move_right
+    move_right = False
+
+# Controles de teclado
 win.listen()
-win.onkeypress(paddle_left, "Left")
-win.onkeypress(paddle_right, "Right")
+win.onkeypress(start_move_left, "Left")
+win.onkeyrelease(stop_move_left, "Left")
+win.onkeypress(start_move_right, "Right")
+win.onkeyrelease(stop_move_right, "Right")
 
 # Loop principal do jogo
 while True:
     win.update()
+
+    # Movimento fluido da raquete
+    if move_left and paddle.xcor() > -340:
+        paddle.setx(paddle.xcor() - 10)
+    if move_right and paddle.xcor() < 340:
+        paddle.setx(paddle.xcor() + 10)
+
+    # Movimento da bola
     ball.setx(ball.xcor() + ball.dx)
     ball.sety(ball.ycor() + ball.dy)
-
-    # Aceleração progressiva da bola
-    ball.dx *= 1.001
-    ball.dy *= 1.001
 
     # Colisão com as laterais
     if ball.xcor() > 390 or ball.xcor() < -390:
@@ -85,7 +99,7 @@ while True:
     for block in blocks:
         if ball.distance(block) < 35:
             ball.dy *= -1
-            block.goto(1000, 1000)  # Move o bloco para fora da tela
+            block.goto(1000, 1000)
             blocks.remove(block)
             break
 
