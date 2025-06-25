@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Color Analyzer 🎨</title>
+</head>
+<body>
+    <h1>Upload uma imagem para ver as cores mais comuns</h1>
+    <form method="post" enctype="multipart/form-data">
+        <input type="file" name="image" required>
+        <button type="submit">Enviar</button>
+    </form>
+
+    {% if filename %}
+        <h2>Imagem:</h2>
+        <img src="{{ filename }}" style="max-width: 300px;"><br>
+    {% endif %}
+
+    {% if colors %}
+        <h2>Cores mais comuns:</h2>
+        <ul>
+            {% for color in colors %}
+                <li>
+                    <div style="display: inline-block; width: 20px; height: 20px;
+                                background-color: rgb{{ color[0] }};"></div>
+                    rgb{{ color[0] }} - {{ color[1] }} pixels
+                </li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+</body>
+</html>
